@@ -34,9 +34,15 @@ footer {
 }
 
 h1 {
+    position: absolute;
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
+    top: 20px;
+    width: 100%;
+    padding: 16px;
     text-align: center;
+    opacity: 0.9;
+    background-color: var(--cor-destaque1);
 }
 
 h2 {
@@ -51,16 +57,6 @@ section,
 article {
     margin: 16px;
     padding: 8px;
-}
-
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.9;
-    background-color: var(--cor-destaque1);
 }
 
 header {
@@ -152,11 +148,11 @@ header a {
 
 .rodape {
     display: grid;
-    grid-template-columns: 10fr 1fr;
+    grid-template-columns: 2.2fr 1fr;
 }
 
 .rodape p {
-    text-align: center;
+    text-align: right;
 }
 
 .redes-sociais {
@@ -164,7 +160,7 @@ header a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-self: end;
+    justify-self: center;
     justify-content: space-between;
     gap: 10px;
 }
