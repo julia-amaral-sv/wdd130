@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria: #f8e9c0;
+    --cor-primaria: #ffa600;
     --cor-secundaria: #32612D;
     --cor-destaque1: #0075AA;
     --cor-destaque2: #FFE544;
@@ -34,7 +34,6 @@ footer {
 }
 
 h1 {
-    position: absolute;
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     top: 20px;
@@ -78,6 +77,10 @@ header a {
 /*Seletores de Classes*/
 .hero {
     position: relative;
+}
+
+.hero h1 {
+    position: absolute;
 }
 
 .hero img {
