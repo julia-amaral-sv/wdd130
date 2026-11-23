@@ -114,6 +114,18 @@ footer {
     margin: 0 auto;
 }
 
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
 /*Seletores de Classes*/
 .caixa {
     margin: 1rem;
@@ -130,16 +142,4 @@ footer {
 .grid {
     display: grid;
     align-items: center;
-}
-
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
 }
