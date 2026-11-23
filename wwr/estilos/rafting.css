@@ -2,6 +2,7 @@
     --cor-primaria: #000000;
     --cor-secundaria: #0075AA;
     --cor-destaque1: #32612D;
+    --cor-destaque3: #193116;
     --cor-destaque2: #dfd69b;
     --cor-da-borda: #c9c9c9;
     --fonte-titulo: 'Times New Roman', Times, serif;
@@ -41,7 +42,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.9;
-    background-color: var(--cor-destaque1);
+    background-color: var(--cor-destaque3);
 }
 
 h2 {
