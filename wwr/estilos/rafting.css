@@ -1,8 +1,8 @@
 :root {
-    --cor-primaria: #51ff00;
-    --cor-secundaria: #32612D;
-    --cor-destaque1: #0075AA;
-    --cor-destaque2: #FFE544;
+    --cor-primaria: #fff;
+    --cor-secundaria: #0075AA;
+    --cor-destaque1: #32612D;
+    --cor-destaque2: #dfd69b;
     --cor-da-borda: #c9c9c9;
     --fonte-titulo: 'Times New Roman', Times, serif;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -41,7 +41,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.9;
-    background-color: var(--cor-destaque1);
+    background-color: var(--cor-secundaria);
 }
 
 h2 {
@@ -59,7 +59,7 @@ article {
 }
 
 header {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-destaque1);
     width: 100%;
 }
 
