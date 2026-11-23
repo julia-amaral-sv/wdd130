@@ -59,7 +59,7 @@ article {
     padding: 8px;
 }
 
-header {
+header.grid {
     background-color: var(--cor-destaque1);
     color: var(--cor-destaque2);
     width: 100%;
