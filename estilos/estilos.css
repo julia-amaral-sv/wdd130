@@ -6,6 +6,9 @@
 
 :root {
     --cor-da-borda: #000;
+    --cor-principal: #738573;
+    --cor-link-nav: #fff;
+    --cor-link: #000;
 }
 
 body {
@@ -17,21 +20,37 @@ body {
 }
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--cor-principal);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    color: var(--cor-link-nav);
     display: block;
     padding: 1rem;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+li a {
+    color: var(--cor-link);
+    text-decoration: none;
 }
 
 h1 {
     margin: 1rem 0 1rem 1rem;
+    border-bottom: 1rem;
     padding: 0px;
     text-align: left;
-    color: darkblue;
+    color: var(--cor-principal);
+    border-bottom: 1px solid var(--cor-principal);
 }
 
 main img {
@@ -64,12 +83,12 @@ aside {
 aside h2 {
     position: absolute;
     top: 90px;
-    left: 121px;
+    left: 115px;
     color: #fff;
 }
 
 aside img {
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 2.5rem;
     width: 200px;
     height: auto;
     border: 1px solid var(--cor-da-borda);
@@ -88,6 +107,13 @@ footer {
     text-align: center;
 }
 
+.grid,
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 /*Seletores de Classes*/
 .caixa {
     margin: 1rem;
@@ -95,4 +121,25 @@ footer {
     border: 1px solid rgb(0 0 0 / 0.2);
     background-color: #ddd;
     color: #000;
+}
+
+.indentacao {
+    padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
