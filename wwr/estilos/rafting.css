@@ -23,7 +23,7 @@ header img {
 
 body {
     font-family: var(--fonte-body);
-    color: var(--cor-destaque3);
+    color: var(--cor-primaria);
 }
 
 header,
